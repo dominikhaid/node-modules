@@ -1,0 +1,14 @@
+{
+  "name": "apollo-srv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo": "^2.28.3",
+    "apollo-datasource": "^0.7.1",
+    "apollo-datasource-rest": "^0.9.2",
+    "apollo-server-express": "^2.15.0"
+  },  "devDependencies": {
+    "prettier": "^2.0.5",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}

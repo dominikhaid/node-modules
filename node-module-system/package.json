@@ -1,0 +1,18 @@
+{
+  "name": "module-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "moment": "^2.29.0"
+  },  "devDependencies": {
+    "prettier": "^2.0.5",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}

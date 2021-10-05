@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  container_namer:
+    container_name: container_namer
+    image: image_name
+    volumes:
+      # - ./log:/usr/src/app/log
+    restart: unless-stopped
+    ports:
+      # - '80:80'
+    networks:
+      dh-bridge:
+        ipv4_address: 172.29.0.55
+
+networks:
+  dh-bridge:
+    external: true

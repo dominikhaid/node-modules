@@ -1,0 +1,9 @@
+[{
+"file":"./.env.development",
+"selector":false,
+"replacemant":"\nENGINE_API_KEY=service:apollo-server-api-key\n"
+},{
+"file":"./.env.production",
+"selector":false,
+"replacemant":"\nENGINE_API_KEY=service:apollo-server-api-key\n"
+}]

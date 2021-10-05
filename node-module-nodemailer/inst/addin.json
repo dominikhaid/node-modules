@@ -1,0 +1,13 @@
+[{
+"file":"./.env.development",
+"selector":false,
+"replacemant":"\nMailServer=MailServer\nMailServerUser=MailServerUser\nMailServerPw=MailServerPw\nMailSender=MailSender\nMailServerPort=587\nMailServerTLS=false\n"
+},
+{
+"file":"./.env.production",
+"selector":false,
+"replacemant":"\nMailServer=MailServer\nMailServerUser=MailServerUser\nMailServerPw=MailServerPw\nMailSender=MailSender\nMailServerPort=587\nMailServerTLS=false\n"
+},{
+"file":"./src/bin/express.js",
+"selector":"startServer",
+"replacemant":"\nconst mailRoutes = require('../routers/mail');\nserver.use('/api/auth/mail', mailRoutes);\n"}]

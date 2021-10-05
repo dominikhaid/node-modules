@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{0:function(o,n,e){o.exports=e("KhGT")},KhGT:function(o,n,e){"use strict";e.r(n);var c;e("UKqy");document.body.appendChild(((c=document.querySelector("#root")).innerHTML="<p>Hello :D webpack</p>",c.classList.add("hello"),c))},UKqy:function(o,n,e){}},[[0,1]]]);

@@ -1,0 +1,4 @@
+[{
+"file":"./src/bin/express.js",
+"selector":"startServer",
+"replacemant":"\nconst uploadRoutes = require('../routers/uploads');\nserver.use('/api/auth/upload', uploadRoutes);\n"}]

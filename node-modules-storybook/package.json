@@ -1,0 +1,47 @@
+{
+  "name": "storybook-react",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-storybook-addon-props-combinations": "^1.1.0",
+    "storybook-addon-designs": "^6.0.0-alpha.3",
+    "storybook-addon-next-router": "^2.0.4",
+    "@storybook/addon-console": "^1.2.3",
+    "storycap": "^3.0.3",
+    "@sambego/storybook-styles": "^1.0.0",
+    "@storybook/addon-actions": "^6.2.2",
+    "@storybook/addon-controls": "^6.2.2",
+    "@storybook/addon-essentials": "^6.2.2",
+    "@storybook/addon-links": "^6.2.2",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-storysource": "^6.2.2",
+    "@storybook/react": "^6.2.2"
+  },
+  "scripts": {
+    "storybook:start": "start-storybook -c .storybook -s ./public -p 6006",
+    "storybook:screenshot": "npx storycap http://localhost:6006",
+    "storybook:build": "build-storybook && cp -R ./public/fonts ./storybook-static"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "globals": {
+      "window": true,
+      "browser": true
+    }
+  },
+  "resolutions": {
+    "cssnano-preset-simple": "1.1.1"
+  }
+}

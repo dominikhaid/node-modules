@@ -1,0 +1,3 @@
+[0926/054607.680:ERROR:registration_protocol_win.cc(103)] CreateFile: Das System kann die angegebene Datei nicht finden. (0x2)
+[0926/054612.167:ERROR:registration_protocol_win.cc(103)] CreateFile: Das System kann die angegebene Datei nicht finden. (0x2)
+[0926/054612.176:ERROR:registration_protocol_win.cc(103)] CreateFile: Das System kann die angegebene Datei nicht finden. (0x2)
